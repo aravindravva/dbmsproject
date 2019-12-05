@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+    <servlet> 
+    <servlet-name>base </servlet-name>
+    <servlet-class>servletstutorial.book</servlet-class>
+    </servlet>
+    <servlet>
+    <servlet-name>seller</servlet-name>
+    <servlet-class>servletstutorial.seller</servlet-class>
+    </servlet>
+    <servlet>
+    <servlet-name>buyer</servlet-name>
+    <servlet-class>servletstutorial.buyer</servlet-class>
+    </servlet>
+    <servlet>
+    <servlet-name>sellerupdate</servlet-name>
+    <servlet-class>servletstutorial.sellerupdate</servlet-class>
+    </servlet>
+    <servlet>
+    <servlet-name>sellerdelete</servlet-name>
+    <servlet-class>servletstutorial.sellerdelete</servlet-class>
+    </servlet>
+ 
+ 
+    
+      <servlet-mapping>
+       <servlet-name>base</servlet-name>
+      <url-pattern>/book</url-pattern>
+      </servlet-mapping>
+      <servlet-mapping>
+      <servlet-name>seller</servlet-name>
+      <url-pattern>/seller</url-pattern>
+      </servlet-mapping>
+      <servlet-mapping>
+      <servlet-name>buyer</servlet-name>
+      <url-pattern>/buyer</url-pattern>
+      </servlet-mapping>
+      <servlet-mapping>
+      <servlet-name>sellerupdate</servlet-name>
+      <url-pattern>/sellerupdate</url-pattern>
+      </servlet-mapping>
+      <servlet-mapping>
+      <servlet-name>sellerdelete</servlet-name>
+      <url-pattern>/sellerdelete</url-pattern>
+      </servlet-mapping>
+      
+      
+</web-app>
